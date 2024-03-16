@@ -31,6 +31,10 @@ Class C : 192.168.0.0 - 192.168.255.255
 ipconfig /all : Windows
 ifconfig (or) ip addr : Linux
 
+For a CIDR range of /16, the subnet mask is 255.255.0.0.
+For a CIDR range of /24, the subnet mask is 255.255.255.0.
+For a CIDR range of /20, the subnet mask is 255.255.240.0.
+
 Network : groups interconnected hosts, which can communicate each other.
 Host : Device we have with in network.
 
